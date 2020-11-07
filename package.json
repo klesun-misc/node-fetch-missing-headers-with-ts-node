@@ -1,0 +1,17 @@
+{
+  "name": "fetch-missing-headers-with-ts-node",
+  "version": "1.0.0",
+  "description": "This repo demonstrates an unexpected behaviour of node-fetch response headers being an empty iterator if lib was required through ts-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "klesun",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
