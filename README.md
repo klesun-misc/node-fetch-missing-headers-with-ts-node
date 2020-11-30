@@ -4,7 +4,7 @@ in conjunction with [`ts-node`](https://github.com/TypeStrong/ts-node). For some
 [`Response.headers`](https://github.com/node-fetch/node-fetch/issues/495) yields no values when the lib
 is imported through `ts-node`, even though everything works ok if it's required in normal nodejs environment.
 
-This repo is the minimal case for reproduction of the issue.
+This repo is the minimal case for reproduction of the issue. (Ticket [#1006](https://github.com/node-fetch/node-fetch/issues/1006))
 
 Install the dependencies:
 ```
